@@ -1,0 +1,117 @@
+/*基本信息*/
+body  {font:12px Tahoma;margin:0px;text-align:center;background:#fff;}
+a:link,a:visited  {font-size:12px;text-decoration:none}
+a:hover{}
+/*页面层容器*这两项分别是控制页面中超链接的样式，表示鼠标经过超链接时的样式*/
+#container {width:1100px;margin:0px 0px 0px 170px;background:#fff;}
+
+/*页面头部*//*给页面头部分加入一个背景图片LOGO，并且不作填充。*/
+#header  {background:url(10.jpg) no-repeat }
+
+
+/*利用padding:20px 20px 0 0来固定菜单位置*/
+#menu {padding:20px 90px 0 0}
+/*添加了float:right使得菜单位于页面右侧*/
+#menu ul {float:right;list-style:none;margin:0px;}
+/*margin:0 10px的作用就是让列表内容之间产生一个20像素的距离(左：10px，右10px)*/
+#menu ul li {float:left;display:block;line-height:30px;margin:0 10px;font-family: "楷体", "楷体_GB2312";font-size: 15px}
+/*菜单选项之间还有一条竖线*/
+.menuDiv {width:1px;height:28px;background:#999}
+#menu ul li a:link,#menu ul li a:visited {font-weight:bold;color:#666;font-family: "楷体", "楷体_GB2312";font-size: 15px}
+#menu ul li a:hover{}
+
+#mainbody a:link,#mainbody a:visited {font-weight:bold;color:#666}
+#mainbody a:hover{}
+
+/*页面主体*/
+#pagebody {
+    width:1100px; /*设定宽度*/
+    margin:60px 0px 0px 0px;/*居中*/
+}
+
+#sidebar {
+    width:200px; /*设定宽度*/
+    text-align:left; /*文字左对齐*/
+    float:left; /*浮动居左*/
+    clear:left; /*不允许左侧存在浮动*/
+    overflow:hidden; /*超出宽度部分隐藏*/
+    border:1px dashed pink;
+    height:450px;
+}
+
+#mainbody {
+    width:820px;
+    text-align:left;
+    float:left; /*向左浮动*/
+    overflow:hidden;
+    border: 1px  dashed  pink;
+    height:30px;
+}
+
+.box{
+    width:300px;
+    border-left: 1px solid  pink;/*画一条浅灰色实线*/}
+
+.top{
+    border-bottom:3px solid pink;
+    border-right:3px dotted transparent;
+
+}
+
+#bottom{
+    padding:5px;
+    color:white;
+    margin-bottom:182px;
+}
+
+#bottom ul li a{
+    padding: 0px;
+    font-family:FZShuTi;
+    font-size: 19px;
+}
+
+.bot{
+    height: 210px;
+    border-left:3px dotted transparent;
+    border-right:3px dotted transparent;
+}
+
+#mainbody a{
+    padding:0px;
+    position:relative;
+    margin: 85px;
+    color:black;
+    font-family:STKaiti;
+    font-size: 18px;
+}
+
+#mainx{
+    position: absolute;
+    margin-top: 30px;
+    margin-left:202px ;
+}
+
+#mainx2{
+    position: absolute;
+    margin-top: 30px;
+    margin-left:202px ;
+}
+
+#footer{
+    width:1200px;
+    margin:0px;
+    height:30px;
+    background:#efefef;
+    line-height:180%;/*设置行高是默认行高的180%*/
+}
+
+/*页面底部*/
+#text{
+    position: relative;
+    font-family: "楷体","楷体_GB2312";
+    font-size: 15px;
+    margin-top: 532px;
+}
+
+
+

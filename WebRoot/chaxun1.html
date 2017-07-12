@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>查询工资</title>
+    <link rel="stylesheet" href="chaxun1.css" type="text/css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="header"><!--页面头部-->
+            <div id="title">
+                查询工资信息
+            </div>
+        </div>
+            <div id="body">
+                <form name="form" method="post" action="chaxunjieguo.jsp">
+                    <table>
+                        <tr><td>员工号:</td><td><input type="text" name="empnum"></td><td>姓&nbsp&nbsp&nbsp名:</td><td><input type="text" name="xingming"></td></tr>
+                        <tr><td>性&nbsp&nbsp&nbsp别:</td><td><select name="sex">
+                            <option value="suoyou">所有--</option>
+                            <option value="男">男</option>
+                            <option value="女">女</option>
+                        </select>
+                        </td><td>年&nbsp&nbsp&nbsp龄:</td><td><input type="text" name="age"></td></tr>
+                        <tr>
+                            <td>部&nbsp&nbsp&nbsp门</td><td><select name="department">
+                            <option value="suoyou">所有--</option>
+                            <option value="市场部">市场部</option>
+                            <option value="销售部">销售部</option>
+                            <option value="技术部">技术部</option>
+                            <option value="管理部">管理部</option>
+                            <option value="研发部">研发部</option>
+                        </select></td>
+                            <td>职&nbsp&nbsp&nbsp务:</td><td><select name="pname">
+                            <option value="suoyou">所有--</option>
+                            <option value="市场顾问">市场顾问</option>
+                            <option value="销售专员">销售专员</option>
+                            <option value="销售顾问">销售顾问</option>
+                            <option value="实施顾问">实施顾问</option>
+                            <option value="行政专员">行政专员</option>
+                            <option value="架构师">架构师</option>
+                            <option value="开发员">开发员</option>
+                            <option value="市场专员">市场专员</option>
+                            <option value="财务专员">财务专员</option>
+                            <option value="咨询顾问">咨询顾问</option>
+                        </select></td>
+                        </tr>
+                        <tr>
+                            </td><td>手机号:</td><td><input type="text" name="tel"></td>
+                            </td><td>邮&nbsp&nbsp&nbsp箱:</td><td><input type="text" name="email" ></td>
+                        </tr>
+                        <td colspan="4" style="text-align: center;padding: 3px"><input type="submit" name="query" value="查询"><input type="reset" name="cancel" value="取消"></td>
+                    </table>
+                </form>
+            </div>
+        </div>
+        </body>
+</html>

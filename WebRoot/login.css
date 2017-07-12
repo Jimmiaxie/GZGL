@@ -1,0 +1,48 @@
+body{
+    background: url(dd.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+}
+
+#header{
+    width: 1349px;
+    height:65px;
+}
+
+#title {
+    width: 300px;
+    height: 50px;
+    color: coral;
+    margin: auto;
+    margin-top: 190px;
+    font-size: 35px;
+    text-align: center;
+    padding: 0px;
+    letter-spacing: 8px;
+    font-family: "楷体", "楷体_GB2312";
+}
+
+#mainbody{
+    width: auto;
+    margin-top: 30px;
+    margin-left: 565px;
+    margin-right: 183px;
+}
+
+#table{
+    border-collapse:collapse;
+}
+
+#table,td,th
+{
+    font-family: "楷体","楷体_GB2312";
+    border:1px solid coral;
+}
+
+#text{
+    font-family: "楷体","楷体_GB2312";
+    margin-left: 450px;
+    font-size: 15px;
+    margin-top: 192px;
+}
